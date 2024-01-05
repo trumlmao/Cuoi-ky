@@ -104,7 +104,7 @@ include "inc/header.php"; ?>
                                 echo "<td>" . $row['switch_type'] . "</td>";
                                 echo "<td>" . $row['interface_type'] . "</td>";
                                 echo "<td>" . $row['accessory_type'] . "</td>";
-                                echo "<td><a href='edit_product.php?id=" . $row['pid'] . "'>Edit</a> | <a href='delete_product.php?id=" . $row['pid'] . "'>Delete</a></td>";
+                                echo "<td><a href='edit.php?id=" . $row['pid'] . "'>Edit</a> | <a href='delete_product.php?id=" . $row['pid'] . "'>Delete</a></td>";
                                 echo "</tr>";
                             }
                         } else {
