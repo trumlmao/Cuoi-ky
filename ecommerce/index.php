@@ -7,32 +7,24 @@ include "inc/header.php";
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carousel-main" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      
     </div>
 
     <div class="carousel-inner">
       <div class="carousel-item active c-item">
         <img src="https://assetsio.reedpopcdn.com/k70max.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp" class="d-block w-100 c-img" alt="Slide 1">
         <div class="carousel-caption top-0 mt-4">
-          <p class="mt-5 fs-3 text-uppercase">Discover the hidden world</p>
-          <h1 class="display-1 fw-bolder text-capitalize">The Aurora Tours</h1>
+          <p class="mt-5 fs-3 text-uppercase">Discover the world of feeling, sound and more</p>
+          
           <button class="btn btn-primary px-4 py-2 fs-5 mt-5" onclick="redirectToNewPage()">Get a keyboard!</button>>
         </div>
       </div>
       <div class="carousel-item c-item">
         <img src="https://assetsio.reedpopcdn.com/fnatic-streak-65.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp" class="d-block w-100 c-img" alt="Slide 2">
         <div class="carousel-caption top-0 mt-4">
-          <p class="text-uppercase fs-3 mt-5">The season has arrived</p>
-          <p class="display-1 fw-bolder text-capitalize">3 available tours</p>
-          <button class="btn btn-primary px-4 py-2 fs-5 mt-5" onclick="redirectToNewPage()">Get a keyboard!</button>
-        </div>
-      </div>
-      <div class="carousel-item c-item">
-        <img src="https://images.unsplash.com/photo-1612686635542-2244ed9f8ddc?fit=crop&w=2070&q=100" class="d-block w-100 c-img" alt="Slide 3">
-        <div class="carousel-caption top-0 mt-4">
-          <p class="text-uppercase fs-3 mt-5">Destination activities</p>
-          <p class="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
-          <button class="btn btn-primary px-4 py-2 fs-5 mt-5" onclick="redirectToNewPage()">Get a keyboard!</button>
+          <p class="text-uppercase fs-3 mt-5">Your thumds desire bettel !</p>
+          
+          <button class="btn btn-primary px-4 py-2 fs-5 mt-5" onclick="redirectToNewPage()">Get a nice keyboard!</button>
         </div>
       </div>
     </div>

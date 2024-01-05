@@ -39,7 +39,7 @@ if (isset($_SESSION['customer'])) {
                     $ototal = $opprice * $oqnt;
                     $insert = $conn->query("INSERT INTO cart(pid,uid,opname,opprice,oqnt,ototal) VALUES ('$opid','$uid','$opname','$opprice','$oqnt','$ototal')");
                     if (!$insert) {
-                        echo "<script>alert('An unexpected error occured')</script>";
+                      echo "<script>alert('Error: " . mysqli_error($conn) . "');</script>";
                     } else {
                         echo "<script>alert('Item successfully added to cart');window.location.href='store.php';</script>";
                     }

@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
             echo "<script> alert('Username or password did not match!')</script>";
         } else {
             $_SESSION['customer'] = $uname;
-            header("location: profile.php");
+            header("location: index.php");
         }
     }
 }

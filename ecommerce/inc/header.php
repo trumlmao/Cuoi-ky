@@ -62,7 +62,11 @@ session_start();
             <!-- Add any additional items for users not logged in -->
             <li class="nav-item mx-1">
               <a class="nav-link text-light" href="signin.php">Sign In</a>
+              
+            </li><li>
+              <a class="nav-link text-light" href="signup.php">Sign up</a>
             </li>
+            
             
           <?php endif; ?>
 
